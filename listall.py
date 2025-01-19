@@ -618,8 +618,8 @@ def main():
         epilog="""
 Common usage examples:
 
- listall.py -d . -s sequence  # implies -p rel-base -f inline -o clip -fmt inline -c all
- listall.py -d . -p rel-base -f inline -s sequence -o clip   # same as above
+ listall.py -d . -s sequence   # implies -p rel-base -o stdout -fmt inline -c all
+ listall.py -d . -s sequence -p rel-base -f inline -o stdout   # same as above
 
 Other examples:
  listall.py -d "path/to/dir1" "path/to/dir2" --path-style files-only --collect dirs-only --format inline --output file --filename listall_jan1st_2024.txt
