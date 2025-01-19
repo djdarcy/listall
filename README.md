@@ -146,7 +146,7 @@ listall.py --help sort
 
 ## Contributing
 
-Issues, suggestions, and bug reports are all welcome. Please open an [issue](https://github.com/listall/issues) if you find something that can be improved. Or fork the repo, make changes (ideally with tests), and open a PR with the feature or bugfix.
+Issues, suggestions, and bug reports are all welcome. Please open an [issue](https://github.com/djdarcy/listall/issues) if you find something that can be improved. Or fork the repo, make changes (ideally with tests), and open a PR with the feature or bugfix.
 
 Like the project? 
 
