@@ -6,9 +6,9 @@ setup(
     description="A flexible directory listing tool for sorting, truncating, collecting files, etc.",
     long_description=open("README.md", encoding="utf-8").read(),  # optional
     long_description_content_type="text/markdown",                # optional if using README.md
-    author="Your Name",
-    author_email="you@example.com",
-    url="https://github.com/<username>/listall",   # or your repo link
+    author="Dustin Darcy",
+    author_email="dustin@scarcityhypothesis.org",
+    url="https://github.com/djdarcy/listall",   # or your repo link
     py_modules=["listall"],  # our script is 'listall.py'
     # If you have other dependencies, list them here:
     install_requires=[
@@ -25,7 +25,7 @@ setup(
     # optional classifiers
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GPL 3",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",   # or whatever minimum version
