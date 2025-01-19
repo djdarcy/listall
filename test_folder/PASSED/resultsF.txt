@@ -1,0 +1,35 @@
+.
+  listall_rel_inline_all_name_stdout.txt
+  tests.cmd
+1. Sort Tests:{
+  files_by_date:{
+    0_2024.03.06_1-30am
+    3_2024.03.06_1-28am
+  }
+  files_with_noseqs:{
+    2two
+    xyz11abc
+  }
+  files_with_seqs_at_end:{
+    file1.txt
+    file9.txt
+  }
+  files_with_seqs_at_start:{
+    10file
+    9file
+  }
+  files_with_seqs_in_middle:{
+    data_10_file
+    data_9_file
+  }
+}
+2. Collect tests:{
+  dirs-1st-last-test_1-file:{
+    only_one_file
+  }
+  empty_dir:{
+  }
+}
+3. Path tests
+  files-only
+  rel

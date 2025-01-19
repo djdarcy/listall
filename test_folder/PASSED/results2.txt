@@ -1,0 +1,11 @@
+test_folder
+test_folder\1. Sort Tests
+test_folder\1. Sort Tests\files_by_date
+test_folder\1. Sort Tests\files_with_noseqs
+test_folder\1. Sort Tests\files_with_seqs_at_end
+test_folder\1. Sort Tests\files_with_seqs_at_start
+test_folder\1. Sort Tests\files_with_seqs_in_middle
+test_folder\2. Collect tests
+test_folder\2. Collect tests\dirs-1st-last-test_1-file
+test_folder\2. Collect tests\empty_dir
+test_folder\3. Path tests

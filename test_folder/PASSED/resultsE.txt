@@ -1,0 +1,13 @@
+.
+1. Sort Tests:{
+  files_by_date
+  files_with_noseqs
+  files_with_seqs_at_end
+  files_with_seqs_at_start
+  files_with_seqs_in_middle
+}
+2. Collect tests:{
+  dirs-1st-last-test_1-file
+  empty_dir
+}
+3. Path tests
