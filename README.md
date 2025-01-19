@@ -1,6 +1,8 @@
 # listall.py
 
-`listall.py` is a Python command-line tool for listing directory structures, sorting files by various criteria, truncating large directories, collecting only directories or files, generating hierarchical summaries, and much more. It’s designed to be a flexible, scriptable alternative to basic `dir` or `ls` commands, offering deeper control and formatting options.
+`listall.py` is a Python command-line tool for listing directory structures, sorting files by various criteria, truncating large directories, collecting only directories or files, generating compact JSONish hierarchical summaries, and much more. It’s designed to be a flexible, scriptable alternative to basic `dir` or `ls` commands, offering deeper control and formatting options.
+
+![listall -d test_folder -c all -p rel-base -xd "*date" -xd "Passed" -fmt summary -s isequence -cl 10 -clm 22](images/example1.png)
 
 ---
 
@@ -52,7 +54,9 @@
 ## Installation
 
 ### Option 1: Direct Download / Copy
+
 Simply download or copy `listall.py` into a folder on your system. You can then run:
+
 ```bash
 python listall.py --help
 ```
@@ -142,7 +146,7 @@ listall.py --help sort
 
 ## Contributing
 
-Issues, suggestions, and bug reports are all welcome. Please open an [issue](https://github.com//listall/issues) if you find something that can be improved! Or fork the repo, make changes (ideally with tests), and open a PR with the feature or bugfix.
+Issues, suggestions, and bug reports are all welcome. Please open an [issue](https://github.com/listall/issues) if you find something that can be improved! Or fork the repo, make changes (ideally with tests), and open a PR with the feature or bugfix.
 
 ## License
 
